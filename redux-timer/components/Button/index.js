@@ -9,7 +9,7 @@ import { FontAwesome } from "@expo/vector-icons";
 const Button = ({ iconName, action }) => {
   return (
     <TouchableOpacity onPress={action}>
-      <FontAwesome name={iconName} size={40} />
+      <FontAwesome name={iconName} size={60} />
     </TouchableOpacity>
   );
 };
